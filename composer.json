@@ -1,5 +1,5 @@
 {
-  "name": "smartgas-lib/auth",
+  "name": "ruslan_sgs/smartgas-lib-auth",
   "description": "Smartgas company auth API",
   "minimum-stability": "stable",
   "type": "library",

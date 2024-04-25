@@ -1,0 +1,36 @@
+{
+  "name": "smartgas-lib/auth",
+  "description": "Smartgas company auth API",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "unlicense",
+  "authors": [
+    {
+      "name": "ersa",
+      "email": "ersatama@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "laravel/sanctum": "^3.2",
+    "tymon/jwt-auth": "^2.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.21"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smartgas\\Auth\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Smartgas\\Auth\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit"
+    ]
+  }
+}

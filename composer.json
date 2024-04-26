@@ -12,9 +12,8 @@
     }
   ],
   "require": {
-    "illuminate/support": "*",
-    "laravel/sanctum": "^3.2",
-    "tymon/jwt-auth": "^2.1"
+    "laravel/sanctum": "v3.3.3",
+    "tymon/jwt-auth": "v2.1.1"
   },
   "require-dev": {
     "orchestra/testbench": "^8.21"

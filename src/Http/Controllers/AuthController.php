@@ -1,13 +1,13 @@
 <?php
 
-namespace Smartgas\Auth\Http\Controllers;
+namespace Ruslan_sgs\SmartgasLibAuth\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\Auth;
-use Smartgas\Auth\Http\Requests\v1\Auth\LoginRequest;
-use Smartgas\Auth\Http\Resources\User\UserResource;
-use Smartgas\Auth\Services\{
+use Ruslan_sgs\SmartgasLibAuth\Http\Requests\v1\Auth\LoginRequest;
+use Ruslan_sgs\SmartgasLibAuth\Http\Resources\User\UserResource;
+use Ruslan_sgs\SmartgasLibAuth\Services\{
     AuthCommandService,
     AuthQueryService
 };

@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartgas\Auth\Providers;
+namespace Ruslan_sgs\SmartgasLibAuth\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,8 +19,8 @@ class AuthProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->publishes([
-            __DIR__ . '/../../config/smartgasAuth.php' => config_path('smartgasAuth.php')
-        ]);
+//        $this->publishes([
+//            __DIR__ . '/../../config/smartgasAuth.php' => config_path('smartgasAuth.php')
+//        ]);
     }
 }

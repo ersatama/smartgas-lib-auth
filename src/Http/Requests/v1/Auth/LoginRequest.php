@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartgas\Auth\Http\Requests\v1\Auth;
+namespace Ruslan_sgs\SmartgasLibAuth\Http\Requests\v1\Auth;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;

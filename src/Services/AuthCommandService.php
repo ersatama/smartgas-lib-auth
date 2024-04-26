@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartgas\Auth\Services;
+namespace Ruslan_sgs\SmartgasLibAuth\Services;
 
 class AuthCommandService extends Service
 {

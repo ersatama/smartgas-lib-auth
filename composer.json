@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Smartgas\\Auth\\": "src/"
+      "Ruslan_sgs\\SmartgasLibAuth\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Smartgas\\Auth\\Tests\\": "tests/"
+      "Ruslan_sgs\\SmartgasLibAuth\\Tests\\": "tests/"
     }
   },
   "scripts": {

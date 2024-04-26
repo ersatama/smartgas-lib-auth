@@ -1,13 +1,13 @@
 <?php
 
-namespace Smartgas\Auth\Tests\Unit;
+namespace Ruslan_sgs\SmartgasLibAuth\Tests\Unit;
 
 use Illuminate\Support\Facades\Hash;
 use Orchestra\Testbench\TestCase;
-use Smartgas\Auth\Services\{
+use Ruslan_sgs\SmartgasLibAuth\Services\{
     AuthQueryService,
 };
-use Smartgas\Auth\Models\CrmUser;
+use Ruslan_sgs\SmartgasLibAuth\Models\CrmUser;
 
 class AuthTest extends TestCase
 {

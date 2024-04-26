@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Smartgas\Auth\Http\Resources\User;
+namespace Ruslan_sgs\SmartgasLibAuth\Http\Resources\User;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;

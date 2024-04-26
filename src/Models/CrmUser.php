@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Smartgas\Auth\Models;
+namespace Ruslan_sgs\SmartgasLibAuth\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;

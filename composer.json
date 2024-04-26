@@ -16,7 +16,7 @@
     "tymon/jwt-auth": "v2.1.1"
   },
   "require-dev": {
-    "orchestra/testbench": "^8.21"
+
   },
   "autoload": {
     "psr-4": {
@@ -27,10 +27,5 @@
     "psr-4": {
       "Ruslan_sgs\\SmartgasLibAuth\\Tests\\": "tests/"
     }
-  },
-  "scripts": {
-    "test": [
-      "vendor/bin/phpunit"
-    ]
   }
 }

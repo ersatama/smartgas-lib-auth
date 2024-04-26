@@ -12,9 +12,9 @@
     }
   ],
   "require": {
-    "orchestra/testbench": "^8.21",
-    "laravel/sanctum": "^3.2",
-    "tymon/jwt-auth": "^2.1"
+    "orchestra/testbench": "^8.22.3",
+    "laravel/sanctum": "^3.3.3",
+    "tymon/jwt-auth": "^2.1.1"
   },
   "autoload": {
     "psr-4": {

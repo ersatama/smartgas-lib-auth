@@ -12,6 +12,7 @@
     }
   ],
   "require": {
+    "php": "^8.2",
     "laravel/sanctum": "v3.3.3",
     "tymon/jwt-auth": "v2.1.1"
   },

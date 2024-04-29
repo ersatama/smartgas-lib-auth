@@ -32,7 +32,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Ruslan_sgs\\SmartgasLibAuth\\Providers"
+        "Ruslan_sgs\\SmartgasLibAuth\\Providers\\AuthProvider"
       ]
     }
   }

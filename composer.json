@@ -29,11 +29,12 @@
       "Ruslan_sgs\\SmartgasLibAuth\\Tests\\": "tests/"
     }
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "AuthProvider"
-      ]
-    }
+  "scripts": {
+    "post-autoload-dump": [
+      "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+      "@php artisan package:discover --ansi",
+      "@php artisan vendor:publish --tag=smartgas-config --force",
+      "@php artisan vendor:publish --tag=smartgas-controller --force"
+    ]
   }
 }

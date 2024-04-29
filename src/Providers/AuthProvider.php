@@ -21,9 +21,9 @@ class AuthProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../../config/smartgas.php' => config_path('smartgas.php')
-        ], 'smartgas-config');
+        ], ['smartgas-config']);
         $this->publishes([
             __DIR__ . '/../Http/Controllers/AuthController.php' => app_path('Http/Controllers/Api/Auth/AuthController.php'),
-        ], 'smartgas-controller');
+        ], ['smartgas-controller']);
     }
 }

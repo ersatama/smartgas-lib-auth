@@ -13,10 +13,11 @@
   ],
   "require": {
     "php": "^8.2",
-    "tymon/jwt-auth": "v2.1.1"
+    "tymon/jwt-auth": "v2.1.1",
+    "laravel/sanctum": "^3.3"
   },
   "require-dev": {
-
+    "orchestra/testbench": "^8.21"
   },
   "autoload": {
     "psr-4": {

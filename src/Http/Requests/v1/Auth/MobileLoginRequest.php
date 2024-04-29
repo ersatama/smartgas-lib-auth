@@ -5,7 +5,7 @@ namespace Ruslan_sgs\SmartgasLibAuth\Http\Requests\v1\Auth;
 use JetBrains\PhpStorm\ArrayShape;
 use Ruslan_sgs\SmartgasLibAuth\Http\Requests\Request;
 
-class LoginRequest extends Request
+class MobileLoginRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -16,13 +16,13 @@ class LoginRequest extends Request
     }
 
     #[ArrayShape([
-        'username' => "string",
-        'password' => "string"
+        'phone'  => "string",
+        'create' => "string"
     ])] public function rules(): array
     {
         return [
-            'username' => 'required',
-            'password' => 'required',
+            'phone'  => 'required',
+            'create' => 'required|boolean'
         ];
     }
 }

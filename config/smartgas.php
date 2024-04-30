@@ -4,6 +4,6 @@ return [
     'smsc' => [
         'login' => '',
         'password' => '',
-        'url' => ''
+        'url' => 'https://smsc.kz/sys/send.php?'
     ]
 ];
